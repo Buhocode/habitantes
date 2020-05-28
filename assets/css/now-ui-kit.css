@@ -31,10 +31,20 @@
  2a8273 */
 
 .h1_title {
-  font-size: 4em;
+  font-size: 3em;
   text-transform: uppercase;
   font-weight: 300;
 }
+
+.none{
+  color: white;
+  text-decoration: none;
+}
+.none:hover{
+  color: white;
+
+}
+
 #privacidad {
   font-size: 0.7rem;
   font-weight: 300;
@@ -3448,7 +3458,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .alert.alert-primary {
-  background-color: rgba(249, 99, 50, 0.8);
+  background-color: rgba(42, 130, 115, 0.8);
 }
 
 .alert .alert-icon {
