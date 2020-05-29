@@ -22,13 +22,15 @@
   <meta charset="utf-8" />
   <link rel="icon" type="image/png" href="./assets/img/logo.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description"
+    content="Habitantes del Río es una socidad civil que busca sanear la cuenca del Río Querétaro. A la par, surge Reparadora Ecológica A.C. que busca sanear y y restaurar el ecosistema. Convocamos limpiezas ciudadanas para apoyar a esta causa.">
+  <meta name="keywords" content="Río, Ecología, Habitantes, Querétaro, Reparadora Ecológica">
 
   <title>
     Habitantes del Río
   </title>
 
-  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
-    name='viewport' />
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no' name='viewport' />
   <!--     Fonts and icons     -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
@@ -44,9 +46,6 @@
   <nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent" color-on-scroll="400">
     <div class="container">
       <div class="navbar-translate">
-        <a class="navbar-brand" href="../index.html" rel="tooltip" title="Regresar a página inicial"
-          data-placement="bottom">
-        </a>
         <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
           aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-bar top-bar"></span>
@@ -138,14 +137,6 @@
           </div>
         </a>
       </div>
-      <!-- 
-      <div class="documental__principio text-center">
-        <h2>Conóce nuestros ríos, viendo nuestro documental</h2>
-        <a href="./pages/documental-page.html">
-          <button type="button" class="btn btn-info btn-round btn-lg">Ver Documental
-          </button>
-        </a>
-      </div> -->
 
       <section class="section quienes-somos">
         <div class="container text-center">
@@ -221,16 +212,16 @@
                   <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner" role="listbox">
-                  <div class="carousel-item active">
+                  <div class="carousel-item active" role="contentinfo">
                     <img class="d-block" src="assets/img/habitantes19.jpg" alt="Limpieza de río">
                     <div class="carousel-caption d-none d-md-block">
                       <h5>El 70% de los rios en Mexico están contaminados</h5>
                       <a href="./pages/involve-page.html">
-                        <button type="button" class="btn btn-primary">Incolucrate con nosotros </button>
+                        <button type="button" class="btn btn-primary">Involúcrate con nosotros </button>
                       </a>
                     </div>
                   </div>
-                  <div class="carousel-item">
+                  <div class="carousel-item" role="contentinfo">
                     <img class="d-block" src="assets/img/habitantes4.jpg" alt="Mujeres cuidando al río">
                     <div class="carousel-caption d-none d-md-block">
                       <h5>Los rios son fuente del liquido vital para la vida</h5>
@@ -241,7 +232,7 @@
                       </a>
                     </div>
                   </div>
-                  <div class="carousel-item">
+                  <div class="carousel-item" role="contentinfo">
                     <img class="d-block" src="assets/img/habitantes9.jpg" alt="Limpiando el río">
                     <div class="carousel-caption d-none d-md-block">
                       <h5>Los ríos son las venas de la Tierra y un ecosistema crucial para la vida, hábitat de varias
@@ -253,10 +244,12 @@
                     </div>
                   </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"
+                  aria-label="Previous">
                   <i class="now-ui-icons arrows-1_minimal-left"></i>
                 </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"
+                  aria-label="Next">
                   <i class="now-ui-icons arrows-1_minimal-right"></i>
                 </a>
               </div>
@@ -283,11 +276,13 @@
               <h3>Gracias por apoyarnos!</h3>
             </div>
             <div class="text-center col-md-12 col-lg-8">
-              <a target="_blank" href="https://www.instagram.com/habitantesdelrioqro/"
-                class="btn btn-neutral btn-icon  btn-round btn-lg" rel="tooltip" title="Síguenos">
+              <a aria-label="Instagram" rel="noopener" target="_blank"
+                href="https://www.instagram.com/habitantesdelrioqro/" class="btn btn-neutral btn-icon  btn-round btn-lg"
+                rel="tooltip" title="Síguenos">
                 <i class="fab fa-instagram"></i>
               </a>
-              <a target="_blank" href="https://www.facebook.com/habitantesdelrioqro/"
+              <a aria-label="Facebook" rel='noopener' target="_blank"
+                href="https://www.facebook.com/habitantesdelrioqro/"
                 class="btn btn-neutral btn-icon btn-facebook btn-round btn-lg" rel="tooltip" title="Dar Like">
                 <i class="fab fa-facebook-square"></i>
               </a>
