@@ -36,13 +36,12 @@
   font-weight: 300;
 }
 
-.none{
+.none {
   color: white;
   text-decoration: none;
 }
-.none:hover{
+.none:hover {
   color: white;
-
 }
 
 #privacidad {
@@ -80,15 +79,6 @@
   width: 100vw;
 }
 
-.festival__card {
-  height: 24rem;
-  width: 20rem;
-  border-radius: 7px;
-  overflow: hidden;
-  background-size: cover;
-  margin: 2rem 2rem;
-}
-
 .topmargin {
   margin-top: 2rem;
 }
@@ -102,7 +92,14 @@
   margin: 0.5rem 0;
 }
 
-
+.festival-card {
+  border-radius: 15px;
+  overflow: hidden;
+  transition: all .3s;
+}
+.festival-card:hover{
+  transform: scale(1.1);
+}
 
 .btn,
 .navbar .navbar-nav > a.btn {

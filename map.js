@@ -69,5 +69,4 @@ function initMap() {
     segundaCamino.setMap(map);
     terceraCamino.setMap(map);
     cuartaCamino.setMap(map);
-
 }
